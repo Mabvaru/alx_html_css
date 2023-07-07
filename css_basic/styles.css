@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+  }
+  /* Style the <header> element */
+header {
+    background-color: #080808;
+    color: #161515;
+    padding: 10px;
+
+  }
+  header a {
+    color: rgb(252, 251, 251);
+  }
+  
+  
+  /* Style the logo in the <header> element */
+header .logo {
+    font-size: 24px;
+  }
+  
+  
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+    overflow-y: auto;
+  }
+  /* Style the <article> element */
+article {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  
+  aside {
+    flex: 1;
+    overflow-y: auto;
+  }
+  /* Style the <aside> element */
+aside {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  /* Style the <footer> element */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
