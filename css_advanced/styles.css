@@ -1,0 +1,93 @@
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  }
+  
+  .box .bitmap-wrapper {
+  border: 0px none;
+  height: 1055px;
+  width: 1448.15px;
+  }
+
+  .box .bitmap {
+  height: 989px;
+  left: 0;
+  mix-blend-mode: color;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+  }
+
+  .label {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    }
+
+    .label .h-1-wrapper {
+    border: 0px none;
+    height: 151px;
+    width: 684px;
+    }
+
+    .label .text-wrapper {
+    color: #ffffff;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-size: 120px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    }
+
+    .box {
+      background-color: transparent;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      }
+      .box .button-wrapper {
+      border: 0px none;
+      height: 44px;
+      width: 162px;
+      }
+      .box .button {
+      box-shadow: 0px 2px 20px #00000080;
+      height: 44px;
+      left: 0;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 162px;
+      }
+      .box .overlap-group {
+      background-color: #c170ff;
+      border-radius: 22px;
+      height: 46px;
+      left: -1px;
+      position: relative;
+      top: -1px;
+      width: 164px;
+      }
+      .box .text-wrapper {
+      color: #ffffff;
+      font-family: "Source Sans Pro-Semibold", Helvetica;
+      font-size: 14px;
+      font-weight: 400;
+      left: 21px;
+      letter-spacing: 0;
+      line-height: normal;
+      position: absolute;
+      text-align: center;
+      top: 13px;
+      }
+      

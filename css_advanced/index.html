@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   
-    <title>Mambo</title>
-
+    <title>School Page</title>
+    <meta name="description" content="Description of the page less than 150 characters">
+    <link rel="icon" type="image/png" href="images/favicon.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='styles.css'>
 </head>
 
 <body>
     <header>
         <div>
             <!-- logo -->
-            <a href=""><img src="C:\Users\PC\mambo\alx_html_css\html_advanced\images\logo.png" alt=" logo"></a>
+            <a href="#"><img class="logo" src="C:\Users\PC\mambo\alx_html_css\html_advanced\images\logo.png" alt=" logo"></a>
             <!-- logo ends -->
             <!-- links -->
       
             <nav>
                 <ul>
-                
+                <div class="menu">
                     <a href="#">COURSES</a>
                     <a href="#">PRICING</a>
                     <a href="#">LOGIN</a>
-                  
+                </div>
                 </ul>
             </nav>
     
@@ -34,15 +35,34 @@
     <main>
         <!-- Top banner starts -->
         <section>
+            <div className="box">
+                <div className="bitmap-wrapper">
+                <img className="bitmap" alt="Bitmap" src="C:\Users\PC\mambo\alx_html_css\html_advanced\images\background picture.png" />
+                </div>
+                </div>
             <!-- the first section of banner first div starts -->
             <div>
-                <h1><strong>Get schooled</strong></h1>
-                <ol>
+                <div className="label">
+                    <div className="h-1-wrapper">
+                    <h1 className="text-wrapper">Get schooled</h1>
+                    </div>
+                    </div>
+               
+                <ul>
                   <li><h3>SMILES</h3></li>
                   <li><h3>GRIN</h3></li>
                   <li><h3>LAUGH</h3></li>
-              </ol>
-                <button>REGISTER FOR FREE</button>
+              </ul>
+              
+              <div className="box">
+                <div className="button-wrapper">
+                <div className="button">
+                <div className="overlap-group">
+                <div className="text-wrapper">REGISTER FOR FREE</div>
+                </div>
+                </div>
+                </div>
+                </div>
             </div>
             <!-- the first section of banner div ends -->
 
